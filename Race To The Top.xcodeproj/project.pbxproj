@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8544C519A18BFD00D773D3 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8544C419A18BFD00D773D3 /* Main.iPad.storyboard */; };
+		8F8544C719A18FAF00D773D3 /* mount-fuji-and-mount-hoei (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8544C619A18FAF00D773D3 /* mount-fuji-and-mount-hoei (1).jpg */; };
+		8F8544CA19A1921F00D773D3 /* RTMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8544C919A1921F00D773D3 /* RTMountainPath.m */; };
+		8F8544CD19A1A1B500D773D3 /* RTPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8544CC19A1A1B500D773D3 /* RTPathView.m */; };
 		8FCADB3519A1322300075E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCADB3419A1322300075E10 /* Foundation.framework */; };
 		8FCADB3719A1322300075E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCADB3619A1322300075E10 /* CoreGraphics.framework */; };
 		8FCADB3919A1322300075E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCADB3819A1322300075E10 /* UIKit.framework */; };
 		8FCADB3F19A1322300075E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCADB3D19A1322300075E10 /* InfoPlist.strings */; };
 		8FCADB4119A1322300075E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCADB4019A1322300075E10 /* main.m */; };
 		8FCADB4519A1322300075E10 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCADB4419A1322300075E10 /* RTAppDelegate.m */; };
-		8FCADB4819A1322300075E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCADB4619A1322300075E10 /* Main.storyboard */; };
+		8FCADB4819A1322300075E10 /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCADB4619A1322300075E10 /* Main.iPhone.storyboard */; };
 		8FCADB4B19A1322300075E10 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCADB4A19A1322300075E10 /* RTViewController.m */; };
 		8FCADB4D19A1322300075E10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCADB4C19A1322300075E10 /* Images.xcassets */; };
 		8FCADB5419A1322300075E10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCADB5319A1322300075E10 /* XCTest.framework */; };
@@ -21,6 +25,7 @@
 		8FCADB5619A1322300075E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCADB3819A1322300075E10 /* UIKit.framework */; };
 		8FCADB5E19A1322300075E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCADB5C19A1322300075E10 /* InfoPlist.strings */; };
 		8FCADB6019A1322300075E10 /* Race_To_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCADB5F19A1322300075E10 /* Race_To_The_TopTests.m */; };
+		8FCADB6B19A1327300075E10 /* RTSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCADB6A19A1327300075E10 /* RTSpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F8544C419A18BFD00D773D3 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		8F8544C619A18FAF00D773D3 /* mount-fuji-and-mount-hoei (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mount-fuji-and-mount-hoei (1).jpg"; sourceTree = "<group>"; };
+		8F8544C819A1921F00D773D3 /* RTMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMountainPath.h; sourceTree = "<group>"; };
+		8F8544C919A1921F00D773D3 /* RTMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMountainPath.m; sourceTree = "<group>"; };
+		8F8544CB19A1A1B500D773D3 /* RTPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPathView.h; sourceTree = "<group>"; };
+		8F8544CC19A1A1B500D773D3 /* RTPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPathView.m; sourceTree = "<group>"; };
 		8FCADB3119A1322300075E10 /* Race To The Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Race To The Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCADB3419A1322300075E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8FCADB3619A1322300075E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +55,7 @@
 		8FCADB4219A1322300075E10 /* Race To The Top-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Race To The Top-Prefix.pch"; sourceTree = "<group>"; };
 		8FCADB4319A1322300075E10 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
 		8FCADB4419A1322300075E10 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
-		8FCADB4719A1322300075E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FCADB4719A1322300075E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		8FCADB4919A1322300075E10 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
 		8FCADB4A19A1322300075E10 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
 		8FCADB4C19A1322300075E10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +64,8 @@
 		8FCADB5B19A1322300075E10 /* Race To The TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race To The TopTests-Info.plist"; sourceTree = "<group>"; };
 		8FCADB5D19A1322300075E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FCADB5F19A1322300075E10 /* Race_To_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_To_The_TopTests.m; sourceTree = "<group>"; };
+		8FCADB6919A1327300075E10 /* RTSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpaceShipView.h; sourceTree = "<group>"; };
+		8FCADB6A19A1327300075E10 /* RTSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +125,16 @@
 		8FCADB3A19A1322300075E10 /* Race To The Top */ = {
 			isa = PBXGroup;
 			children = (
+				8F8544CB19A1A1B500D773D3 /* RTPathView.h */,
+				8F8544CC19A1A1B500D773D3 /* RTPathView.m */,
+				8F8544C419A18BFD00D773D3 /* Main.iPad.storyboard */,
+				8F8544C819A1921F00D773D3 /* RTMountainPath.h */,
+				8F8544C919A1921F00D773D3 /* RTMountainPath.m */,
 				8FCADB4319A1322300075E10 /* RTAppDelegate.h */,
 				8FCADB4419A1322300075E10 /* RTAppDelegate.m */,
-				8FCADB4619A1322300075E10 /* Main.storyboard */,
+				8FCADB4619A1322300075E10 /* Main.iPhone.storyboard */,
+				8FCADB6919A1327300075E10 /* RTSpaceShipView.h */,
+				8FCADB6A19A1327300075E10 /* RTSpaceShipView.m */,
 				8FCADB4919A1322300075E10 /* RTViewController.h */,
 				8FCADB4A19A1322300075E10 /* RTViewController.m */,
 				8FCADB4C19A1322300075E10 /* Images.xcassets */,
@@ -126,6 +146,7 @@
 		8FCADB3B19A1322300075E10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F8544C619A18FAF00D773D3 /* mount-fuji-and-mount-hoei (1).jpg */,
 				8FCADB3C19A1322300075E10 /* Race To The Top-Info.plist */,
 				8FCADB3D19A1322300075E10 /* InfoPlist.strings */,
 				8FCADB4019A1322300075E10 /* main.m */,
@@ -229,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8544C519A18BFD00D773D3 /* Main.iPad.storyboard in Resources */,
 				8FCADB4D19A1322300075E10 /* Images.xcassets in Resources */,
 				8FCADB3F19A1322300075E10 /* InfoPlist.strings in Resources */,
-				8FCADB4819A1322300075E10 /* Main.storyboard in Resources */,
+				8F8544C719A18FAF00D773D3 /* mount-fuji-and-mount-hoei (1).jpg in Resources */,
+				8FCADB4819A1322300075E10 /* Main.iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FCADB4519A1322300075E10 /* RTAppDelegate.m in Sources */,
+				8F8544CA19A1921F00D773D3 /* RTMountainPath.m in Sources */,
+				8FCADB6B19A1327300075E10 /* RTSpaceShipView.m in Sources */,
+				8F8544CD19A1A1B500D773D3 /* RTPathView.m in Sources */,
 				8FCADB4B19A1322300075E10 /* RTViewController.m in Sources */,
 				8FCADB4119A1322300075E10 /* main.m in Sources */,
 			);
@@ -283,12 +309,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8FCADB4619A1322300075E10 /* Main.storyboard */ = {
+		8FCADB4619A1322300075E10 /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8FCADB4719A1322300075E10 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		8FCADB5C19A1322300075E10 /* InfoPlist.strings */ = {
@@ -377,10 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +419,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +489,7 @@
 				8FCADB6519A1322300075E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FCADB6619A1322300075E10 /* Build configuration list for PBXNativeTarget "Race To The TopTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +498,7 @@
 				8FCADB6819A1322300075E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
