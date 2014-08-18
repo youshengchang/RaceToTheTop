@@ -41,7 +41,7 @@
 
 - (void)didReceiveMemoryWarning
 {
-    [super didR/Users/youshengchangeceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 
